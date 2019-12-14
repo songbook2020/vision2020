@@ -11,7 +11,7 @@ html { font-size: 10px; }
     a:active { color: white; background-color: green; }
     img {display: block;margin-left: auto;margin-right: auto;}
 
-    #container {width: 120rem; margin: 0 auto;}
+    #container {width: 96rem; margin: 0 auto;}
     #container #input-form {text-align: center;}
     #user-table {margin: 0 auto; text-align: center;}
     #input-form {margin-top: 1.5rem; margin-bottom: 1.5rem;}
