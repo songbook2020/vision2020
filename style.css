@@ -12,12 +12,12 @@ html { font-size: 10px; }
     a:active { color: white; background-color: green; }
     img {display: block;margin-left: auto;margin-right: auto;}
 
-    #container {width: 48rem; margin: 0 auto;}
+    #container {width: 40rem; margin: 0 auto;}
     #container #input-form {text-align: center;}
     #user-table {margin: 0 auto; text-align: center;}
     #input-form {margin-top: 1.5rem; margin-bottom: 1.5rem;}
 
     #user-table {border-collapse: collapse;}
     #user-table > thead > tr { background-color: rgb(125, 205, 0); color:#fff; }
-    #user-table > thead > tr > th { padding: 0.8rem; width: 12rem; }
+    #user-table > thead > tr > th { padding: 0.8rem; width: 10rem; }
     #user-table > tbody > tr > td { border-bottom: 0.1rem solid gray; padding:0.8rem; }
