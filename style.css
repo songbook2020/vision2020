@@ -18,5 +18,5 @@ html { font-size: 10px; }
 
     #user-table {border-collapse: collapse;}
     #user-table > thead > tr { background-color: rgb(125, 205, 0); color:#fff; }
-    #user-table > thead > tr > th { padding: 0.8rem; width: 22rem; }
+    #user-table > thead > tr > th { padding: 0.8rem; width: 18rem; }
     #user-table > tbody > tr > td { border-bottom: 0.1rem solid gray; padding:0.8rem; }
