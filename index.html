@@ -36,6 +36,18 @@
              })
 
       </script>
+      <script>
+        $(document).ready(function() {
+                 $("#from").keyup(function() {
+                     var f = $(this).val();
+                     $("#user-table > tbody > tr").hide();
+                     var temp2 = $("#user-table > tbody > tr > td:nth-child(4n+4):contains('" + f + "')");
+
+                     $(temp2).parent().show();
+                 })
+             })
+
+      </script>
       <h1  style="text-align:center;"><span style="color:rgb(0, 153, 0);"><A href="index.html">SONG BOOK 2020</a></span></h1>
 
       <div id="container">
@@ -45,6 +57,10 @@
 
             <div class="jb-normal" id="input-form">
                 가사 : <input type="text" id="startword" />
+            </div>
+
+            <div class="jb-normal" id="input-form">
+                출처 : <input type="text" id="from" />
             </div>
 
 
@@ -61,16 +77,17 @@
                 <tbody class="jb-small">
                   <tr>
                       <td>1</td>
-                      <td><a href="한사람.html">한사람구원자예수</a></td>
-                      <td>이 세상에 구원받아야 할 사람이</td>
-                      <td>찬송가</td>
+                      <td><a href="나는네비게이토.html">나는 네비게이토</a></td>
+                      <td>거친 파도 헤쳐 가는</td>
+                      <td>KOREA NAVIGATOR</td>
                   </tr>
                   <tr>
                       <td>2</td>
-                      <td><a href="한사람.html">한사람구원자예수</a></td>
-                      <td> 세상에 구원받아야 할 사람이</td>
-                      <td>찬송가</td>
+                      <td><a href="한사람.html">한사람</a></td>
+                      <td>이 세상에 구원받아야 할 사람이</td>
+                      <td>CCM</td>
                   </tr>
+
 
                 </tbody>
             </table>
